@@ -1,2 +1,4 @@
 # HAL-Stm32-Linux
 HAL库编写stm32实现与树莓派串口通信，上，下位机均有
+
+之前没有考虑到python没有明确区分short型和int型，这里引入numpy模块来强制转化数据，具体操作及树莓派上数据的处理见calculate.py文件
